@@ -19,7 +19,7 @@ function App() {
   }
  else{}
   
- }, [data])
+ }, [])
  
 
   const handleLogin = (email, password) => {

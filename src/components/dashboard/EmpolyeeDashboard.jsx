@@ -4,14 +4,17 @@ import TaskNumber from './TaskNumber'
 import TaskList from '../tasklist/TaskList'
 
 function EmpolyeeDashboard({data}) {
-  console.log(data)
-  return (
+  
+  return data ?(
     <div className='bg-[#1c1c1c] p-10 h-screen'>
-    <Header />
-    <TaskNumber />
-    <TaskList />
+    <Header data={data} />
+    <TaskNumber data={data} />
+    <TaskList data={data} />
     
     </div>
+  ):(<div>
+    LOADING....
+  </div>
   )
 }
 

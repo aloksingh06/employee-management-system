@@ -32,7 +32,7 @@ const employees = [
     {
       "id": 2,
       "first_name": "Rajesh",
-      "email": "employee2@example.com",
+      "email": "e2@e.com",
       "password": "123",
       "task_count": {"new": 2, "completed": 0, "failed": 0, "active": 2},
       "tasks": [
